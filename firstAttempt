@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+//PSEUDOCODE - START
+// we are to to accept a user's input of an integer
+// then we have to convert that integer to a binary number
+// that binary number is to be reversed; every zero becomes a one and vice versa
+// then the reversed number is to be converted to the integer equivalent
+// print integer equivalent
+//PSEUDOCODE-END
+
+public class ReverseBinaryNumber {
+
+	public static void main(String[] args) {
+		Scanner numberScan = new Scanner(System.in);
+		int userInputedIntger = numberScan.nextInt();
+		String integerChange = Integer.toBinaryString(userInputedIntger);
+		
+		System.out.println(integerChange);
+		
+		
+
+	}
+
+}
